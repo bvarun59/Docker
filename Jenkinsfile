@@ -15,7 +15,9 @@ pipeline {
             }
         }
         stage("push docker image") {
+            steps{
             echo "push image to dockerhub"
+            }
         }
         
     }
