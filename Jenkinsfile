@@ -4,7 +4,7 @@ pipeline {
         stage("git clone") {
             steps {
                 echo "do git clone"
-            # sh 'git clone https://github.com/bvarun59/Docker.git'
+            // sh 'git clone https://github.com/bvarun59/Docker.git'
             }
             
         }
