@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FROM ubuntu:latest
 
 WORKDIR /app
@@ -18,3 +19,12 @@ CMD ["nginx", "-g", "daemon off;"]
 
 
 
+=======
+FROM python:3.12
+
+RUN apt update -y
+
+COPY main.py .
+
+CMD ["python","main.py"]
+>>>>>>> refs/remotes/origin/main
